@@ -1,0 +1,98 @@
+
+#table1,
+#table2,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+body {
+    text-align: center;
+}
+
+.none {
+    border: 0;
+}
+
+#table1 {
+    border-top: 0;
+}
+
+.peach {
+    background-color: rgb(214, 82, 34);
+}
+
+.purple {
+    background-color: rgb(175, 52, 173);
+}
+
+.lightblue {
+    background-color: rgb(129, 155, 230);
+}
+
+.skin {
+    background-color: rgb(245, 245, 176);
+}
+
+.brown {
+    background-color: rgba(157, 91, 11, 0.991);
+}
+
+.lightgreen {
+    background-color: rgba(68, 243, 68, 0.67);
+}
+
+.lightyellow {
+    background-color: rgb(255, 255, 150);
+}
+
+.blue {
+    background-color: rgb(106, 106, 255);
+}
+
+.white {
+    background-color: rgba(255, 251, 251, 0.676);
+}
+
+.offwhite {
+    background-color: rgb(234, 214, 214);
+}
+
+#last {
+    margin-left: 75px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    background: linear-gradient(to right, rgb(249, 96, 121), rgb(192, 139, 237), cyan);
+}
+
+        /* chess game */
+
+        .safeed {
+            background-color: wheat;
+        }
+
+        .hara {
+            background-color: rgb(68, 125, 68);
+        }
+
+        #table3 {
+            margin-left: 300px;
+            font-size: 50px;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        .safeed {
+            width: 60px;
+            height: 50px;
+
+        }
+
+        .hara {
+            width: 60px;
+            height: 50px;
+        }
