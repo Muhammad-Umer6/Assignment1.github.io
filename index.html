@@ -4,336 +4,396 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Periodic Table</title>
+    <title>My Projects</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<form >
-<div class="header">
-    <label for="name">Name:
-        <input type="text" >
-    </label>
-</div>
+    <div id="home">
 
+        <h1>MY BANO QABIL PROJECTS</h1>
 
+        <nav>
 
+            <div id="logo">
+                <img src="logo.png" alt="logo">
+            </div>
 
+            <div id="elements">
+                <a href="#form">Form</a>
+                <a href="#per_table">Periodic Table</a>
+                <a href="#chess">Chess Board</a>
+                <a href="#iframe">Iframe</a>
+            </div>
 
+        </nav>
 
+    </div>
 
+    <!-- Form -->
+    <form action=>
+        <div id="form">
+            <h1>FORM</h1>
+            <div id="details">
+                <fieldset>
+                    <h2>
+                        <legend>Your Details</legend>
+                    </h2>
 
+                    <label>Name: <br><input type="text" placeholder="Your Name" class="inputs"> </label>
 
+                    <br>
 
+                    <label>Father Name: <br><input type="text" placeholder="Your Nick Name" class="inputs"> </label>
 
+                    <br>
 
+                    <label>Age: <br><input type="date" placeholder="Your Age" class="inputs"> </label>
 
+                    <br>
 
+                    <label>Email: <br><input type="email" placeholder="Your Email" class="inputs"> </label>
 
+                    <br>
 
+                    <label>Contact No.: <br> <input type="tel" placeholder="Your Contact Number" class="inputs">
+                    </label>
 
+                    <br>
 
+                    <label>Gender:</label><br>
 
+                    <label for="male">Male</label>
+                    <input type="radio" name="Gender" id="male">
 
+                    <label for="female">Female</label>
+                    <input type="radio" name="Gender" id="female"><br>
 
-</form>
+                    <input type="reset" class="reset_btn" placeholder=""><br><br>
+                    <label><input type="submit" placeholder="" class="sub_btn"> </label>
 
+                    <br><br>
 
+                </fieldset>
 
+                <br><br>
+            </div>
 
+        </div>
+    </form>
 
+    <a href="#home" class="a">HOME</a>
 
+    <br><br><br>
 
+    <!-- Periodic Table -->
 
+    <div id="per_table">
 
+        <h1> PERIODIC TABLE</h1>
 
+        <table id="table1" width="1250px">
 
-
-
-
-
-
-
-
-
-
-
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-
-
-
-    <!-- <img src="periodic table.jpeg" alt=""> -->
-    <h1> PERIODIC TABLE</h1>
-    <table id="table1" width="1250px" >
-
-        <!-- 1st row -->
-        <tr>
-            <td class="peach">1<br>H</td>
-
-
-            <td colspan="16" class="none"></td>
-            <td class="lightblue">2<br>He</td>
-
-        </tr>
-
-        <!-- 2nd row -->
-        <tr>
-            <td class="purple">3<br>Li</td>
-            <td class="blue">4<br>Be</td>
-            <td colspan="10" class="none"></td>
-            <td class="brown">5<br>B</td>
-            <td class="peach">6<br>C</td>
-            <td class="peach">7<br>N</td>
-            <td class="peach">8<br>O</td>
-            <td class="skin">9<br>F</td>
-            <td class="lightblue">10<br>Ne</td>
-        </tr>
-
-        <!-- 3rd row -->
-        <tr>
-            <td class="purple">11<br>Na</td>
-            <td class="blue">12<br>Mg</td>
-            <td colspan="10" class="none"></td>
-            <td class="lightgreen ">13<br>Al</td>
-            <td class="brown">14<br>Si</td>
-            <td class="peach">15<br>P</td>
-            <td class="peach">16<br>S</td>
-            <td class="skin">17<br>Cl</td>
-            <td class="lightblue">18<br>Ar</td>
-        </tr>
-
-        <!-- 4th row -->
-        <tr>
-            <td class="purple">19<br>K</td>
-            <td class="blue">20<br>Ca</td>
-            <td class="lightyellow">21<br>Sc</td>
-            <td class="lightyellow">22<br>Ti</td>
-            <td class="lightyellow">23<br>V</td>
-            <td class="lightyellow">24<br>Cr</td>
-            <td class="lightyellow">25<br>Mn</td>
-            <td class="lightyellow">26<br>Fe</td>
-            <td class="lightyellow">27<br>Co</td>
-            <td class="lightyellow">28<br>Ni</td>
-            <td class="lightyellow">29<br>Cu</td>
-            <td class="lightyellow">30<br>Zn</td>
-            <td class="lightgreen">31<br>Ga</td>
-            <td class="brown">32<br>Ge</td>
-            <td class="brown">33<br>As</td>
-            <td class="peach">34<br>Se</td>
-            <td class="skin">35<br>Br</td>
-            <td class="lightblue">36<br>kr</td>
-
-            <!-- 5th row  -->
-        <tr>
-            <td class="purple">37<br>Rb</td>
-            <td class="blue">38<br>Sr</td>
-            <td class="lightyellow">39<br>Y</td>
-            <td class="lightyellow">40<br>Zr</td>
-            <td class="lightyellow">41<br>Nb</td>
-            <td class="lightyellow">42<br>Mo</td>
-            <td class="lightyellow">43<br>Tc</td>
-            <td class="lightyellow">44<br>Ru</td>
-            <td class="lightyellow">45<br>Rh</td>
-            <td class="lightyellow">46<br>Pd</td>
-            <td class="lightyellow">47<br>Ag</td>
-            <td class="lightyellow">48<br>Cd</td>
-            <td class="lightgreen">49<br>In</td>
-            <td class="lightgreen">50<br>Sn</td>
-            <td class="brown">51<br>Sb</td>
-            <td class="brown">52<br>Te</td>
-            <td class="skin">53<br>I</td>
-            <td class="lightblue">54<br>Xe</td>
-
-
-        </tr>
-
-        <!-- 6th row -->
-        <tr>
-            <td class="purple">55<br>Cs</td>
-            <td class="blue">56<br>Ba</td>
-            <td class="offwhite" style="width: 53px;">57-71<br></td>
-            <td class="lightyellow">72<br>Hf</td>
-            <td class="lightyellow">73<br>Ta</td>
-            <td class="lightyellow">74<br>W</td>
-            <td class="lightyellow">75<br>Re</td>
-            <td class="lightyellow">76<br>Os</td>
-            <td class="lightyellow">77<br>Ir</td>
-            <td class="lightyellow">78<br>Pt</td>
-            <td class="lightyellow">79<br>Au</td>
-            <td class="lightyellow">80<br>Hg</td>
-            <td class="lightgreen">81<br>Ti</td>
-            <td class="lightgreen">82<br>Pb</td>
-            <td class="lightgreen">83<br>Bi</td>
-            <td class="brown">84<br>Po</td>
-            <td class="skin">85<br>At</td>
-            <td class="lightblue">86<br>Rn</td>
-
-        </tr>
-
-        <!-- 7th row -->
-        <tr>
-            <td class="purple">87<br>Fr</td>
-            <td class="blue">88<br>Ra</td>
-            <td class="offwhite"><font-size>89-103</font-size><br></td>
-            <td class="lightyellow">104<br>Rf</td>
-            <td class="lightyellow">105<br>Db</td>
-            <td class="lightyellow">106<br>Sg</td>
-            <td class="lightyellow">107<br>Bh</td>
-            <td class="lightyellow">108<br>Hs</td>
-            <td class="lightyellow">109<br>Mt</td>
-            <td class="lightyellow">110<br>Ds</td>
-            <td class="lightyellow">111<br>Rg</td>
-            <td class="lightyellow">112<br>Cn</td>
-            <td class="white">113<br>Nh</td>
-            <td class="white">114<br>Fl</td>
-            <td class="white">115<br>Mc</td>
-            <td class="white">116<br>Lv</td>
-            <td class="white">117<br>Ts</td>
-            <td class="white">118<br>Og</td>
-        </tr>
-
-
-
-    </table>
-    <br>
-    <div id="last">
-        <table id="table2" width="1050" height="0">
-
-            <!-- 2nd last -->
+            <!-- 1st row -->
             <tr>
-                <td class="offwhite">57<br>La</td>
-                <td class="offwhite">58<br>Ce</td>
-                <td class="offwhite">59<br>Pr</td>
-                <td class="offwhite">60<br>Nd</td>
-                <td class="offwhite">61<br>Pm</td>
-                <td class="offwhite">62<br>Sm</td>
-                <td class="offwhite">63<br>Eu</td>
-                <td class="offwhite">64<br>Gd</td>
-                <td class="offwhite">65<br>Tb</td>
-                <td class="offwhite">66<br>Dy</td>
-                <td class="offwhite">67<br>Ho</td>
-                <td class="offwhite">68<br>Er</td>
-                <td class="offwhite">69<br>Tm</td>
-                <td class="offwhite">70<br>Yb</td>
-                <td class="offwhite">71<br>Lu</td>
+                <td class="peach">1<br>H</td>
+                <td colspan="16" class="none"></td>
+                <td class="lightblue">2<br>He</td>
+
+            </tr>
+
+            <!-- 2nd row -->
+            <tr>
+                <td class="purple">3<br>Li</td>
+                <td class="blue">4<br>Be</td>
+                <td colspan="10" class="none"></td>
+                <td class="brown">5<br>B</td>
+                <td class="peach">6<br>C</td>
+                <td class="peach">7<br>N</td>
+                <td class="peach">8<br>O</td>
+                <td class="skin">9<br>F</td>
+                <td class="lightblue">10<br>Ne</td>
+            </tr>
+
+            <!-- 3rd row -->
+            <tr>
+                <td class="purple">11<br>Na</td>
+                <td class="blue">12<br>Mg</td>
+                <td colspan="10" class="none"></td>
+                <td class="lightgreen ">13<br>Al</td>
+                <td class="brown">14<br>Si</td>
+                <td class="peach">15<br>P</td>
+                <td class="peach">16<br>S</td>
+                <td class="skin">17<br>Cl</td>
+                <td class="lightblue">18<br>Ar</td>
+            </tr>
+
+            <!-- 4th row -->
+            <tr>
+                <td class="purple">19<br>K</td>
+                <td class="blue">20<br>Ca</td>
+                <td class="lightyellow">21<br>Sc</td>
+                <td class="lightyellow">22<br>Ti</td>
+                <td class="lightyellow">23<br>V</td>
+                <td class="lightyellow">24<br>Cr</td>
+                <td class="lightyellow">25<br>Mn</td>
+                <td class="lightyellow">26<br>Fe</td>
+                <td class="lightyellow">27<br>Co</td>
+                <td class="lightyellow">28<br>Ni</td>
+                <td class="lightyellow">29<br>Cu</td>
+                <td class="lightyellow">30<br>Zn</td>
+                <td class="lightgreen">31<br>Ga</td>
+                <td class="brown">32<br>Ge</td>
+                <td class="brown">33<br>As</td>
+                <td class="peach">34<br>Se</td>
+                <td class="skin">35<br>Br</td>
+                <td class="lightblue">36<br>kr</td>
+
+                <!-- 5th row  -->
+            <tr>
+                <td class="purple">37<br>Rb</td>
+                <td class="blue">38<br>Sr</td>
+                <td class="lightyellow">39<br>Y</td>
+                <td class="lightyellow">40<br>Zr</td>
+                <td class="lightyellow">41<br>Nb</td>
+                <td class="lightyellow">42<br>Mo</td>
+                <td class="lightyellow">43<br>Tc</td>
+                <td class="lightyellow">44<br>Ru</td>
+                <td class="lightyellow">45<br>Rh</td>
+                <td class="lightyellow">46<br>Pd</td>
+                <td class="lightyellow">47<br>Ag</td>
+                <td class="lightyellow">48<br>Cd</td>
+                <td class="lightgreen">49<br>In</td>
+                <td class="lightgreen">50<br>Sn</td>
+                <td class="brown">51<br>Sb</td>
+                <td class="brown">52<br>Te</td>
+                <td class="skin">53<br>I</td>
+                <td class="lightblue">54<br>Xe</td>
+
+
+            </tr>
+
+            <!-- 6th row -->
+            <tr>
+                <td class="purple">55<br>Cs</td>
+                <td class="blue">56<br>Ba</td>
+                <td class="offwhite" style="width: 53px;">57-71<br></td>
+                <td class="lightyellow">72<br>Hf</td>
+                <td class="lightyellow">73<br>Ta</td>
+                <td class="lightyellow">74<br>W</td>
+                <td class="lightyellow">75<br>Re</td>
+                <td class="lightyellow">76<br>Os</td>
+                <td class="lightyellow">77<br>Ir</td>
+                <td class="lightyellow">78<br>Pt</td>
+                <td class="lightyellow">79<br>Au</td>
+                <td class="lightyellow">80<br>Hg</td>
+                <td class="lightgreen">81<br>Ti</td>
+                <td class="lightgreen">82<br>Pb</td>
+                <td class="lightgreen">83<br>Bi</td>
+                <td class="brown">84<br>Po</td>
+                <td class="skin">85<br>At</td>
+                <td class="lightblue">86<br>Rn</td>
+
+            </tr>
+
+            <!-- 7th row -->
+            <tr>
+                <td class="purple">87<br>Fr</td>
+                <td class="blue">88<br>Ra</td>
+                <td class="offwhite"><font-size>89-103</font-size><br></td>
+                <td class="lightyellow">104<br>Rf</td>
+                <td class="lightyellow">105<br>Db</td>
+                <td class="lightyellow">106<br>Sg</td>
+                <td class="lightyellow">107<br>Bh</td>
+                <td class="lightyellow">108<br>Hs</td>
+                <td class="lightyellow">109<br>Mt</td>
+                <td class="lightyellow">110<br>Ds</td>
+                <td class="lightyellow">111<br>Rg</td>
+                <td class="lightyellow">112<br>Cn</td>
+                <td class="white">113<br>Nh</td>
+                <td class="white">114<br>Fl</td>
+                <td class="white">115<br>Mc</td>
+                <td class="white">116<br>Lv</td>
+                <td class="white">117<br>Ts</td>
+                <td class="white">118<br>Og</td>
+            </tr>
+
+        </table>
+
+        <br>
+
+        <div id="last">
+            <table id="table2" width="1050" height="0">
+
+                <!-- 2nd last -->
+                <tr>
+                    <td class="offwhite">57<br>La</td>
+                    <td class="offwhite">58<br>Ce</td>
+                    <td class="offwhite">59<br>Pr</td>
+                    <td class="offwhite">60<br>Nd</td>
+                    <td class="offwhite">61<br>Pm</td>
+                    <td class="offwhite">62<br>Sm</td>
+                    <td class="offwhite">63<br>Eu</td>
+                    <td class="offwhite">64<br>Gd</td>
+                    <td class="offwhite">65<br>Tb</td>
+                    <td class="offwhite">66<br>Dy</td>
+                    <td class="offwhite">67<br>Ho</td>
+                    <td class="offwhite">68<br>Er</td>
+                    <td class="offwhite">69<br>Tm</td>
+                    <td class="offwhite">70<br>Yb</td>
+                    <td class="offwhite">71<br>Lu</td>
+
+                </tr>
+
+                <tr>
+                    <td class="offwhite">89<br>Ac</td>
+                    <td class="offwhite">90<br>Th</td>
+                    <td class="offwhite">91<br>Pa</td>
+                    <td class="offwhite">92<br>U</td>
+                    <td class="offwhite">93<br>Np</td>
+                    <td class="offwhite">94<br>Pu</td>
+                    <td class="offwhite">95<br>Am</td>
+                    <td class="offwhite">96<br>Cm</td>
+                    <td class="offwhite">97<br>Bk</td>
+                    <td class="offwhite">98<br>Cf</td>
+                    <td class="offwhite">99<br>Es</td>
+                    <td class="offwhite">100<br>Fm</td>
+                    <td class="offwhite">101<br>Md</td>
+                    <td class="offwhite">102<br>No</td>
+                    <td class="offwhite">103<br>Lr</td>
+
+                </tr>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <a href="#home" class="a">HOME</a>
+
+    <br><br><br>
+
+    <!-- CHESS GAME -->
+    <div id="chess">
+
+        <h1>CHESS BOARD</h1>
+
+        <table id="table3" border="1">
+            <tr>
+                <td class="safeed">&#9820;</td>
+                <td class="hara">&#9822;</td>
+                <td class="safeed">&#9821;</td>
+                <td class="hara">&#9819;</td>
+                <td class="safeed">&#9818;</td>
+                <td class="hara">&#9821;</td>
+                <td class="safeed">&#9822;</td>
+                <td class="hara">&#9820;</td>
+            </tr>
+
+            <tr>
+                <td class="hara">&#9823;</td>
+                <td class="safeed">&#9823;</td>
+                <td class="hara">&#9823;</td>
+                <td class="safeed">&#9823;</td>
+                <td class="hara">&#9823;</td>
+                <td class="safeed">&#9823;</td>
+                <td class="hara">&#9823;</td>
+                <td class="safeed">&#9823;</td>
 
             </tr>
 
             <tr>
-                <td class="offwhite">89<br>Ac</td>
-                <td class="offwhite">90<br>Th</td>
-                <td class="offwhite">91<br>Pa</td>
-                <td class="offwhite">92<br>U</td>
-                <td class="offwhite">93<br>Np</td>
-                <td class="offwhite">94<br>Pu</td>
-                <td class="offwhite">95<br>Am</td>
-                <td class="offwhite">96<br>Cm</td>
-                <td class="offwhite">97<br>Bk</td>
-                <td class="offwhite">98<br>Cf</td>
-                <td class="offwhite">99<br>Es</td>
-                <td class="offwhite">100<br>Fm</td>
-                <td class="offwhite">101<br>Md</td>
-                <td class="offwhite">102<br>No</td>
-                <td class="offwhite">103<br>Lr</td>
+                <td class="safeed"></td>
+                <td class="hara"></td>
+                <td class="safeed"></td>
+                <td class="hara"></td>
+                <td class="safeed"></td>
+                <td class="hara"></td>
+                <td class="safeed"></td>
+                <td class="hara"></td>
+            </tr>
 
+            <tr>
+                <td class="hara"></td>
+                <td class="safeed"></td>
+                <td class="hara"></td>
+                <td class="safeed"></td>
+                <td class="hara"></td>
+                <td class="safeed"></td>
+                <td class="hara"></td>
+                <td class="safeed"></td>
+            </tr>
+
+            <tr>
+                <td class="safeed"></td>
+                <td class="hara"></td>
+                <td class="safeed"></td>
+                <td class="hara"></td>
+                <td class="safeed"></td>
+                <td class="hara"></td>
+                <td class="safeed"></td>
+                <td class="hara"></td>
+            </tr>
+
+            <tr>
+                <td class="hara"></td>
+                <td class="safeed"></td>
+                <td class="hara"></td>
+                <td class="safeed"></td>
+                <td class="hara"></td>
+                <td class="safeed"></td>
+                <td class="hara"></td>
+                <td class="safeed"></td>
+            </tr>
+
+            <tr>
+                <td class="safeed">&#9817;</td>
+                <td class="hara">&#9817;</td>
+                <td class="safeed">&#9817;</td>
+                <td class="hara">&#9817;</td>
+                <td class="safeed">&#9817;</td>
+                <td class="hara">&#9817;</td>
+                <td class="safeed">&#9817;</td>
+                <td class="hara">&#9817;</td>
+            </tr>
+
+            <tr>
+                <td class="hara"> &#9814; </td>
+                <td class="safeed">&#9816;</td>
+                <td class="hara">&#9815;</td>
+                <td class="safeed">&#9813;</td>
+                <td class="hara">&#9812;</td>
+                <td class="safeed">&#9815;</td>
+                <td class="safeed">&#9816;</td>
+                <td class="hara">&#9814;</td>
             </tr>
 
         </table>
 
     </div>
-    <br><br><br>
+    <a href="#home" class="a">HOME</a>
 
-    <!-- CHESS GAME -->
-    <h1>CHESS BOARD</h1>
-    <table id="table3" border="1">
-        <tr>
-            <td class="safeed">&#9820;</td>
-            <td class="hara">&#9822;</td>
-            <td class="safeed">&#9821;</td>
-            <td class="hara">&#9819;</td>
-            <td class="safeed">&#9818;</td>
-            <td class="hara">&#9821;</td>
-            <td class="safeed">&#9822;</td>
-            <td class="hara">&#9820;</td>
-        </tr>
-        <tr>
-            <td class="hara">&#9823;</td>
-            <td class="safeed">&#9823;</td>
-            <td class="hara">&#9823;</td>
-            <td class="safeed">&#9823;</td>
-            <td class="hara">&#9823;</td>
-            <td class="safeed">&#9823;</td>
-            <td class="hara">&#9823;</td>
-            <td class="safeed">&#9823;</td>
+    <br><br>
 
-        </tr>
+    <div id="iframe">
 
-        <tr>
-            <td class="safeed"></td>
-            <td class="hara"></td>
-            <td class="safeed"></td>
-            <td class="hara"></td>
-            <td class="safeed"></td>
-            <td class="hara"></td>
-            <td class="safeed"></td>
-            <td class="hara"></td>
-        </tr>
-        <tr>
-            <td class="hara"></td>
-            <td class="safeed"></td>
-            <td class="hara"></td>
-            <td class="safeed"></td>
-            <td class="hara"></td>
-            <td class="safeed"></td>
-            <td class="hara"></td>
-            <td class="safeed"></td>
-        </tr>
-        <tr>
-            <td class="safeed"></td>
-            <td class="hara"></td>
-            <td class="safeed"></td>
-            <td class="hara"></td>
-            <td class="safeed"></td>
-            <td class="hara"></td>
-            <td class="safeed"></td>
-            <td class="hara"></td>
-        </tr>
-        <tr>
-            <td class="hara"></td>
-            <td class="safeed"></td>
-            <td class="hara"></td>
-            <td class="safeed"></td>
-            <td class="hara"></td>
-            <td class="safeed"></td>
-            <td class="hara"></td>
-            <td class="safeed"></td>
-        </tr>
-        <tr>
-            <td class="safeed">&#9817;</td>
-            <td class="hara">&#9817;</td>
-            <td class="safeed">&#9817;</td>
-            <td class="hara">&#9817;</td>
-            <td class="safeed">&#9817;</td>
-            <td class="hara">&#9817;</td>
-            <td class="safeed">&#9817;</td>
-            <td class="hara">&#9817;</td>
+        <iframe src="" name="iframe_a" height="300px" width="40%" title="Iframe" id="ifr_src"></iframe>
 
-        </tr>
-        <tr>
-            <td class="hara"> &#9814; </td>
-            <td class="safeed">&#9816;</td>
-            <td class="hara">&#9815;</td>
-            <td class="safeed">&#9813;</td>
-            <td class="hara">&#9812;</td>
-            <td class="safeed">&#9815;</td>
-            <td class="safeed">&#9816;</td>
-            <td class="hara">&#9814;</td>
-        </tr>
-    </table>
+        <div id="ifr_h3">
+            <h2>You can check these Websites</h2>
+            <h3><a href="https://www.cdnjs.com" target="iframe_a">cdnjs.com</a></h3>
+            <h3><a href="https://telemart.pk" target="iframe_a">Telemart</a></h3>
+            <h3><a href="https://www.hiring-hub.com" target="iframe_a">Hiring_Hub</a></h3>
+        </div>
+
+    </div>
+
+    <br>
+
+    <a href="#home" class="a">HOME</a>
+
+    <br>
 
 </body>
 
